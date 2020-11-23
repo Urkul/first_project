@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Позиционирование</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        text-align: center;
+        font-weight: 600;
+    }
+    section{
+        width: 200px;
+        height: 310px;
+        border: 1px solid#ccc;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.6);
+        display: inline-block;
+        margin-right: 20px;
+
+    }
+    .section {
+        margin-top: 15%;
+    }
+    input{
+        margin-top: 16px;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 4px;
+        color: white;
+        font-size: 12px;
+    }
+    .head{
+        margin-top: 22px;
+    }
+    .cost{
+        font-size: 36px;
+    }
+    .period{
+        opacity: 0.2;
+        margin-top: 5px;
+    }
+    .text{
+        font-size: 12px;
+        margin-top: 18px;
+    }
+    .enterprise input{
+        background-color: rgb(202, 58, 82);
+        border: none;
+    }
+    .enterprise hr{
+        color: rgb(202, 58, 82);
+        background-color: rgb(202, 58, 82);
+        height: 2px; 
+    }
+    .professional input{
+        background-color:rgb(199, 132, 8);
+        border: none;
+    }
+    .professional hr{
+        color: rgb(199, 132, 8);
+        background-color: rgb(199, 132, 8);
+        height: 2px; 
+    }
+    .standart input{
+        background-color:rgba(15, 62, 131, 0.87);
+        border: none;
+    }
+    .standart hr{
+        color: rgba(15, 62, 131, 0.87);
+        background-color: rgba(15, 62, 131, 0.87);
+        height: 2px; 
+    }
+    .basic input{
+        background-color:rgba(51, 172, 27, 0.87);
+        border: none;
+    }
+    .basic hr{
+        color: rgba(51, 172, 27, 0.87);
+        background-color:rgba(51, 172, 27, 0.87);
+        height: 2px; 
+    }
+</style>
+<body>
+    <div class="section">
+    <section class="enterprise">
+        <div class="head">
+            <p>ENTERPRISE</p>
+        </div>
+        <hr>
+        <div class="cost">
+            <label>$69</label>
+        </div>
+        <div class="period">
+            <label>per month</label>
+        </div>
+        <div class="text">
+            <p>10GB disk space</p>
+            <p>100GB monthly bandwidth</p>
+            <p>20 email accounts</p>
+            <p>Unlimited subdomens</p>
+        </div>
+        <input type="submit" value="BUY">
+    </section>
+    <section class="professional">
+        <div class="head">
+            <p>PROFESSIONAL</p>
+        </div>
+        <hr>
+        <div class="cost">
+            <label>$29</label>
+        </div>
+        <div class="period">
+            <label>per month</label>
+        </div>
+        <div class="text">
+            <p>5GB disk space</p>
+            <p>60GB monthly bandwidth</p>
+            <p>10 email accounts</p>
+            <p>Unlimited subdomens</p>
+        </div>
+        <input type="submit" value="BUY">
+    </section>
+    <section class="standart">
+        <div class="head">
+            <p>STANDART</p>
+        </div>
+        <hr>
+        <div class="cost">
+            <label>$19</label>
+        </div>
+        <div class="period">
+            <label>per month</label>
+        </div>
+        <div class="text">
+            <p>3GB disk space</p>
+            <p>30GB monthly bandwidth</p>
+            <p>5 email accounts</p>
+            <p>Unlimited subdomens</p>
+        </div>
+        <input type="submit" value="BUY">
+    </section>
+    <section class="basic">
+        <div class="head">
+            <p>BASIC</p>
+        </div>
+        <hr>
+        <div class="cost">
+            <label>$9</label>
+        </div>
+        <div class="period">
+            <label>per month</label>
+        </div>
+        <div class="text">
+            <p>1GB disk space</p>
+            <p>10GB monthly bandwidth</p>
+            <p>2 email accounts</p>
+            <p>Unlimited subdomens</p>
+        </div>
+        <input type="submit" value="BUY">
+    </section>
+    </div>
+</body>
+</html>
